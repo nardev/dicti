@@ -68,7 +68,7 @@ Mislim da je korištenje u ovu svrhu bilo sasvim opravdano i ne osjećam nikakvu
 
 Python skripta je krajnje banalna, tako da ovdje neću objašnjavati funkcionalnosti jer ko poznaje python, to mu nebi bilo od neke karučite koristi.
 
-Osim toga korišten je **ffmpeg** za spajanje engleskog izgovora i prijevoda, jer bitrate nije bio isti a za ostala spajanja, koistio sam **sox* aplikaciju i to obavio ručno komandom naprimjer:
+Osim toga korišten je **ffmpeg** za spajanje engleskog izgovora i prijevoda, jer bitrate nije bio isti a za ostala spajanja, koistio sam **sox** aplikaciju i to obavio ručno komandom naprimjer:
 ```
 sox word-by-word-combined/a*.mp3 combined-by-first-letter/a.mp3
 ```
