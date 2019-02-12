@@ -14,7 +14,7 @@ import subprocess
 ################################################################################
 
 audio = "word-by-word-combined/"
-audio_temp = "word-by-word/"
+audio_temp = "word-by-word-uncombined/"
 wordslist = "3001.csv"
 
 ## read number from file last
@@ -93,8 +93,8 @@ def generateCombinedAudio(file1,file2,name):
 wordslistfile = pandas.read_csv(wordslist,skipinitialspace = True, quotechar = '"')
 
 for index, row in wordslistfile.iterrows():
-    if index > latest:
-    # if index == 848:
+    # if index > latest:
+    if index == 58:
         file1 = getEnglishAudio(row['english'].strip(), str(index))
         file2 = getCroatianAudio(row['bosnian'], str(index))
         finalname = row['english'].split(',')[0].strip().replace(" ", "_").replace("'", "")+'-'+ row['bosnian'].split(',')[0].strip().replace(" ", "_")
