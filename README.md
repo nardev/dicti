@@ -4,6 +4,8 @@ Držeći se predpostavke da djeca brzo uče te da se u poslednje dvje decenije z
 
 Ovo je lista za početak sadrži oko **3000 riječi na engleskom** a što je sasvim dovoljno za razumjevanje preko 90% svakodnevnog govora i sadržaja časopisa, novina i medijskih izvještaja. Ostalih 5-10% riječi, uglavnom se mogu rzumjeti iz konteksta u kojem se koriste.
 
+Takođe, moram napomenuti da su riječi preveli štićenici ustanove [Mala Škola](http://malaskola.org)
+
 ### Čemu ovo služi?
 
 Svrha ovih snimaka je da olakšaju onome tko to želi, da što prije nalči veći skup riječi te da ovo bude polazna tačka za brže učenje engleskog jezika.
@@ -60,7 +62,7 @@ Tako da nema potrebe insistirati na složenim vježbama, naručito u prvim momen
 
 ### Software
 
-U ovom repozitoriju se takođe nalazi jedna mala python skripta. To je bio samo pomoćni alat kojim sam sa google translate servisa izdavo snimke na engleskom jeziku a sa web stranice **https://www.hsm360.com**, uz malu pomoć trikova, uspio iskoristiti servis za sintetiziranje govora. Inače, koliko mi je poznato, taj software je naprafila kompanija **https://www.alfanum.co.rs**, ali moj upit za korištenje servisa nije dočekad sa velikim odušeljenjem. Takođe na njohovom sajtu ima izvjesna zaštita na demo stranici za TTS (text to speach) tako da samo se snašao sa hsm360 sajtom.
+U ovom repozitoriju se takođe nalazi jedna mala python skripta. To je bio samo pomoćni alat kojim sam sa google translate servisa izdavo snimke na engleskom jeziku a sa web stranice **https://www.hsm360.com**, uz malu pomoć trikova, uspio iskoristiti servis za sintetiziranje govora. Inače, koliko mi je poznato, taj software je naprafila kompanija **https://www.alfanum.co.rs**, ali moj upit za korištenje servisa nije dočekad sa velikim odušeljenjem. Takođe na njihovom sajtu ima izvjesna zaštita na demo stranici za TTS (text to speach) tako da samo se snašao sa hsm360 sajtom.
 
 Mislim da je korištenje u ovu svrhu bilo sasvim opravdano i ne osjećam nikakvu gružnju savjesto šo sam "izrokao" njihov server sa 3000 upita za generisanje novih audio snimaka u mp3 formatu u nekom periodu od 1 sata. :) Mogu im samo reći hvala i nadam se da nećete blokirati servis za ovakvu namjenu i za ubuduće.
 
