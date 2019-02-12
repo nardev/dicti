@@ -1,0 +1,3 @@
+# dicti - učenje stranih riječi
+
+## opis uskoro...
