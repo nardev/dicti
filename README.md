@@ -4,7 +4,9 @@ Držeći se predpostavke da djeca brzo uče te da se u poslednje dvje decenije z
 
 Ovo je lista za početak sadrži oko **3000 riječi na engleskom** a što je sasvim dovoljno za razumjevanje preko 90% svakodnevnog govora i sadržaja časopisa, novina i medijskih izvještaja. Ostalih 5-10% riječi, uglavnom se mogu rzumjeti iz konteksta u kojem se koriste.
 
-Takođe, moram napomenuti da su riječi preveli štićenici ustanove [Mala Škola](http://malaskola.org)
+Takođe, dodao sam i listu od preko 300 glagola. Lista je podijeljena na pravilne i nepravilne te u slučaju samo liste i fajlova za nepravilne glagole, takođe je generisana i promjena kroz vremena za svaki glagol sa liste.
+
+Moram napomenuti da su riječi preveli štićenici ustanove [Mala Škola](http://malaskola.org)
 
 ### Čemu ovo služi?
 
@@ -26,9 +28,9 @@ Neću ulaziti u razloge zašto je to tako, neka bude dovoljno što ću reći da 
 
 Trenutno, ovdje je moguće skinuti riječi pojedinačno, spojene sa prijevodom, spojene po abecednom redu za svako slovo po jedan audio snimak ili sve od jednom.
 
-Ukupno trajanje cjelokupnog snimka je oko sat i 47 minuta a veličina cjelokupnog fajla je ~25MB
+Ukupno trajanje cjelokupnog snimka liste sa oko 3000 riječi je oko sat i 47 minuta a veličina cjelokupnog fajla je ~25MB, dok lista svih glagola u osnovnom obliku, sa prijevoda 11 minuta i 30-tak sekundi.
 
-Listu svih riječi možete pronaći u fajlu: **"3001.csv"** te istu može te otvoriti u excel programu.
+Liste svih riječi i glagola su pohranjene u "CSV" fajlove koje može te naći u odgovarajućim direktorijima. CSV se može otvoriti i mijenjati u excel-u.
 
 Ako vam je porebno da apravite neku svoju listu koju želi te da sintetizujete, slobodno mi es obratite na email vedran@nardev.org
 
@@ -49,7 +51,7 @@ Ako vam je porebno da apravite neku svoju listu koju želi te da sintetizujete, 
 - Riječ **"least"**, iako se u praksi češće koristi u formulaciji **"at least"**, međutim, na ovom spisku to nema, već samo osnovni oblik, tako da se to može u neku ruku smatrati nedostatkom. Dakle, ostavljeno je učeniku da u daljnjem toku učenja to spozna i nauči.
 - Riječ **"paint"** je prevedena kao **"boja, slikati"**, dakle, iako nema infinitivni prefiks **to**, dodao sam i glagolski oblik tj. prjevod jer smatram da je isuviše važno. **U isto vrijeme, lista nije opterećena ponavljanjem iste riječi jer smatram da ako naučite imenicu, i ako sammo čujete da je to ujedno i glagol, to nećete tako lako zaboraviti.**
 
-### Šta mislim o knjigama za učenje engleskog:
+#### Šta mislim o knjigama za učenje engleskog:
 
 Takođe, knjige koje se najčešće koriste, **jako su opterećene vježbama koje bi i da su na našem maternjem jeziku zahtjevale dodatnu koncentraciju**.
 
@@ -59,8 +61,7 @@ Kao što vidi te, ja nisam pristalica te metode i smatram da naše poznavanje ma
 
 Tako da nema potrebe insistirati na složenim vježbama, naručito u prvim momentima učenja stranog jezika, kako je to slučaj sa djecom u dobi od 10-14 godina.
 
-
-### Software
+#### Software
 
 U ovom repozitoriju se takođe nalazi jedna mala python skripta. To je bio samo pomoćni alat kojim sam sa google translate servisa izdavo snimke na engleskom jeziku a sa web stranice **https://www.hsm360.com**, uz malu pomoć trikova, uspio iskoristiti servis za sintetiziranje govora. Inače, koliko mi je poznato, taj software je naprafila kompanija **https://www.alfanum.co.rs**, ali moj upit za korištenje servisa nije dočekad sa velikim odušeljenjem. Takođe na njihovom sajtu ima izvjesna zaštita na demo stranici za TTS (text to speach) tako da samo se snašao sa hsm360 sajtom.
 

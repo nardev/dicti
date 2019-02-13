@@ -13,12 +13,14 @@ import subprocess
 ## file paths and config
 ################################################################################
 
-audio = "word-by-word-combined/"
-audio_temp = "word-by-word-uncombined/"
-wordslist = "3001.csv"
+audio = "glagoli/pravilni/"
+audio_temp = "glagoli/pravilni/_source/"
+# wordslist = "3001.csv"
+wordslist = "glagoli/help.csv"
+last_word_order = "last"
 
 ## read number from file last
-last = open("last", "r")
+last = open(last_word_order, "r")
 latest = int(last.read())
 print "==="
 print "starting at: " + str(latest)
@@ -39,21 +41,21 @@ cookies = session.cookies.get_dict()
 
 # pretty straight foward how to get mp3 but it looks like those mp3 files lack some characteristics, important for merging
 def getEnglishAudio(word,tempname):
-    tts = gTTS(word)
-    tts.save(audio_temp+tempname+"_en.mp3")
+    # tts = gTTS(word)
+    # tts.save(audio_temp+tempname+"_en.mp3")
     return audio_temp+tempname+"_en.mp3"
 
 
 # this website doesn't have request's monitoring so i was able to hit the script constantly
 def getCroatianAudio(word,tempname):
-    response = requests.post("https://www.hsm360.com/wp-content/plugins/hsm-screen-reader/lib/tts_req.php",data={
-    		'input_text': word,
-    		'rate':'0.995',
-    		'pitch':'0.65',
-    		})
-    data = response.json()
-    fileurl = data["file_url"]
-    urllib.urlretrieve (fileurl, audio_temp+tempname+"_ba.mp3")
+    # response = requests.post("https://www.hsm360.com/wp-content/plugins/hsm-screen-reader/lib/tts_req.php",data={
+    # 		'input_text': word,
+    # 		'rate':'0.995',
+    # 		'pitch':'0.65',
+    # 		})
+    # data = response.json()
+    # fileurl = data["file_url"]
+    # urllib.urlretrieve (fileurl, audio_temp+tempname+"_ba.mp3")
     return audio_temp+tempname+"_ba.mp3"
 
 
@@ -93,13 +95,13 @@ def generateCombinedAudio(file1,file2,name):
 wordslistfile = pandas.read_csv(wordslist,skipinitialspace = True, quotechar = '"')
 
 for index, row in wordslistfile.iterrows():
-    if index > latest:
-    # if index == 58:
+    # if index > latest:
+    if index < 199:
         file1 = getEnglishAudio(row['english'].strip(), str(index))
         file2 = getCroatianAudio(row['bosnian'], str(index))
         finalname = row['english'].split(',')[0].strip().replace(" ", "_").replace("'", "")+'-'+ row['bosnian'].split(',')[0].strip().replace(" ", "_")
         generateCombinedAudio(file1,file2,finalname)
-        last = open("last", "w")
+        last = open(last_word_order, "w")
         last.write(str(index))
         last.close()
 
