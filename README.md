@@ -65,7 +65,7 @@ Tako da nema potrebe insistirati na složenim vježbama, naručito u prvim momen
 
 U ovom repozitoriju se takođe nalazi jedna mala python skripta. To je bio samo pomoćni alat kojim sam sa google translate servisa izdavo snimke na engleskom jeziku a sa web stranice **https://www.hsm360.com**, uz malu pomoć trikova, uspio iskoristiti servis za sintetiziranje govora. Inače, koliko mi je poznato, taj software je naprafila kompanija **https://www.alfanum.co.rs**, ali moj upit za korištenje servisa nije dočekad sa velikim odušeljenjem. Takođe na njihovom sajtu ima izvjesna zaštita na demo stranici za TTS (text to speach) tako da samo se snašao sa hsm360 sajtom.
 
-Mislim da je korištenje u ovu svrhu bilo sasvim opravdano i ne osjećam nikakvu gružnju savjesto šo sam "izrokao" njihov server sa 3000 upita za generisanje novih audio snimaka u mp3 formatu u nekom periodu od 1 sata. :) Mogu im samo reći hvala i nadam se da nećete blokirati servis za ovakvu namjenu i za ubuduće.
+Mislim da je korištenje u ovu svrhu bilo sasvim opravdano i ne osjećam nikakvu grižnju savjesto šo sam "izrokao" njihov server sa 3000 upita za generisanje novih audio snimaka u mp3 formatu u nekom periodu od 1 sata. :) Mogu im samo reći hvala i nadam se da nećete blokirati servis za ovakvu namjenu i za ubuduće.
 
 Python skripta je krajnje banalna, tako da ovdje neću objašnjavati funkcionalnosti jer ko poznaje python, to mu nebi bilo od neke karučite koristi.
 
@@ -79,5 +79,5 @@ p.s.
 
 *Prije sada skoro 20 godina, kada sam kretao u srednju školu, dobio sam jedan lijepi diktafon od mojih divnih roditelja. Upravo na ovaj način sam u jako kratkom vremenu naučio puno riječi iz turskog i engleskog. Nažalost, to sam primjenio samo na učenje nekoliko stotina stranih riječi, ali je to u tom momentu bilo sasvim dovoljno da nadoknadim propušteno :).*
 
-*Takođe, ovo sam napravio i iz prkosa prema svim tradicionalnim i izuzetno neuspješnim nastavnicima i profesorima engleskom i drugih stranih jezika. Nikada mi nije bilo jasno, niti će mi ikada biti jasno, da profesori mogu sebi da dopuste da u 8-10 godina učenja stranog jezika, prosječan učenik, ako nije bio u prilici ili ako nije bio zainteresovan za samostalno i dodatno učenje, nije u mogućnosti da se bar minimalno sporezumije na stranom jeziku koji je toliko godina učio u školi.
+*Takođe, ovo sam napravio i iz prkosa prema svim tradicionalnim i izuzetno neuspješnim nastavnicima i profesorima engleskog i drugih stranih jezika. Nikada mi nije bilo jasno, niti će mi ikada biti jasno, da profesori mogu sebi dozvoliti da u 8-10 godina učenja stranog jezika, prosječan učenik, nije u mogućnosti da se bar minimalno sporezumije na stranom jeziku koji je toliko godina učio u školi.
 Nažalost, ti nastavnici su jako opterećeni formalnostima i kojekakvim ličnim problemima i umejsto da se usredotoče na efikasnije metode podučavanja, oni nerijetko liječe svoje lične komplekse na učenicima te učenje jezika ostaje po strani.*
